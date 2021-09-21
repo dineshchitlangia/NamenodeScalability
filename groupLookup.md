@@ -3,7 +3,7 @@
 The NameNode frequently performs group lookups for users submitting requests. 
 This is part of the normal access control mechanism. Group lookups may involve contacting an LDAP server. If the LDAP server is slow to process requests, it can hold up NameNode RPC handler threads and affect cluster performance. When the NameNode suffers from this problem it logs a warning that looks like this:
 
-Potential performance problem: getGroups(user=john) took 23861 milliseconds.
+```Potential performance problem: getGroups(user=john) took 23861 milliseconds.```
 The default warning threshold is 5 seconds. If you see this log message you should investigate the performance of your LDAP server right away. There are a few workarounds if it is not possible to fix the LDAP server performance immediately.
 
 * **Increase the group cache timeout** - 
