@@ -36,3 +36,9 @@ General guidelines for scaling the Namenode in HDFS, lessons learnt from the fie
 ## Tips for Scaling
 
 - [Optimize Logging](logging.md)
+- [Optimize RPC](rpc.md)
+- [Eliminating Host Level issues](hostIssues.md)
+- [Group Lookup Performance](groupLookup.md)
+- [Tuning Failover / Startup](failover.md)
+- [Heap Memory](heap.md)
+- [Managing External Factors](externalFactors.md)
