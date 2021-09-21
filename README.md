@@ -31,3 +31,8 @@ General guidelines for scaling the Namenode in HDFS, lessons learnt from the fie
 
 </p>
 </details>
+
+
+## Tips for Scaling
+
+- [Optimize Logging](logging.md)
