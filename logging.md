@@ -14,7 +14,8 @@ Default is empty
 <details><summary>Async Logging</summary>
 <p>
 In hdfs-site.xml set,
-```bash
+  
+```bash 
 dfs.namenode.edits.asynclogging = true
 dfs.namenode.audit.log.async = true
 ```
