@@ -5,8 +5,8 @@ You can bump it up to 120seconds [120000] for large clusters.
 But remember, the more you increase it, you are basically delaying the failover. So in the event of an actual failure it will still wait for this time before triggering the transition.
 
 * **Speed-up quota initialization** - When Namenode starts up, it loads the FSImage and Edits.
-It needs to recalculate and verify the quotas for the entire namespace
-As the size of namespace continues to increase, the quota initialization will take more time. You can assess this by checking Namenode Logs for statement like these:
+It needs to recalculate and verify the quotas for the entire namespace.
+ As the size of namespace continues to increase, the quota initialization will take more time. You can assess this by checking Namenode Logs for statement like these:
 ```bash
 (FSDirectory.java:updateCountForQuota(717)) - Quota initialization completed in 80844 milliseconds name space=76383028
 ```
