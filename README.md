@@ -41,4 +41,5 @@ General guidelines for scaling the Namenode in HDFS, lessons learnt from the fie
 - [Group Lookup Performance](groupLookup.md)
 - [Tuning Failover / Startup](failover.md)
 - [Heap Memory](heap.md)
+- [Block Reports](blockReport.md)
 - [Managing External Factors](externalFactors.md)
