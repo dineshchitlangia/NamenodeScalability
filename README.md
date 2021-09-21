@@ -1,6 +1,11 @@
 # Scaling the Namenode
 General guidelines for scaling the Namenode in HDFS, lessons learnt from the field.
 
+This repo is a collateral for my presentation at ApacheCon 2021 titled "Scaling the Namenode - Lessons Learnt"
+<p></p>
+
+[The slide deck from the talk is available here.](Slides_ApacheCon2021.pdf)
+
 <details><summary>Commonly reported problems</summary>
 <p>
 
